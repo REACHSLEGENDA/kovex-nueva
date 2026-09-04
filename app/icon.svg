@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <title>Kovex</title>
+  <rect width="128" height="128" rx="26" fill="#000000"/>
+  <rect x="1.5" y="1.5" width="125" height="125" rx="24.5" fill="none" stroke="#26262B" stroke-width="3"/>
+  <path
+    d="M78.5 0H118.3L82.4 41.1L119 100H81.1L60.3 63.4L42.9 77.6V100H10.8V0H42.9V42.7Z"
+    fill="#FFFFFF"
+    transform="translate(8 24) scale(.78)"
+  />
+  <circle cx="110" cy="94" r="10" fill="#FF1E8E"/>
+</svg>
