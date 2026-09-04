@@ -53,8 +53,8 @@ export default function Implementacion() {
           </Reveal>
           <Reveal delay={120}>
             <p className="lead">
-              El mismo recorrido para una línea o para las tres. Lo que cambia es el alcance del
-              levantamiento.
+              El mismo recorrido para una línea o para las tres. Dos semanas como máximo, de la
+              primera sesión a la mesa operando.
             </p>
           </Reveal>
         </div>
@@ -89,9 +89,13 @@ export default function Implementacion() {
 
           <Reveal delay={80}>
             <div className="card card--static" style={{ marginTop: 48 }}>
-              <p className="kicker">Antes de publicar</p>
-              <p>
-                <span className="todo">[DATO PENDIENTE: tiempos reales de implementación por paso]</span>
+              <p className="kicker">Plazo</p>
+              <h3>
+                Dos semanas como máximo<span className="dot" aria-hidden="true" />
+              </h3>
+              <p style={{ marginTop: 18 }}>
+                Los cuatro pasos caben en ese plazo. Lo que cambia entre un cliente y otro es el
+                alcance del levantamiento, no la fecha de arranque.
               </p>
             </div>
           </Reveal>

@@ -147,18 +147,29 @@ export default function Telefonia() {
         </div>
       </section>
 
-      {/* ── PENDIENTES COMERCIALES ─────────────────────────── */}
+      {/* ── CONDICIONES COMERCIALES ────────────────────────── */}
       <section className="section section--tight">
         <div className="wrap">
           <Reveal>
             <div className="card card--static">
               <p className="kicker">Condiciones comerciales</p>
-              <h3>Falta cerrar antes de publicar</h3>
-              <ul className="dots dots--tight" style={{ marginTop: 20 }}>
-                <li><span className="todo">[DATO PENDIENTE: países con cobertura]</span></li>
-                <li><span className="todo">[DATO PENDIENTE: modelo de cobro]</span></li>
-                <li><span className="todo">[DATO PENDIENTE: minutos incluidos]</span></li>
-              </ul>
+              <h3>
+                Cómo se contrata<span className="dot" aria-hidden="true" />
+              </h3>
+              <dl className="terms">
+                <div>
+                  <dt>Cobertura</dt>
+                  <dd>Mundial.</dd>
+                </div>
+                <div>
+                  <dt>Cobro</dt>
+                  <dd>Pasarela de pago o transferencia.</dd>
+                </div>
+                <div>
+                  <dt>Minutos</dt>
+                  <dd>Los incluidos dependen del plan; se definen en el levantamiento.</dd>
+                </div>
+              </dl>
             </div>
           </Reveal>
         </div>

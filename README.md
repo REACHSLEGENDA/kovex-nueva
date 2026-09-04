@@ -44,14 +44,14 @@ Producción: `npm run build && npm start`.
 Cada `[DATO PENDIENTE]` aparece marcado en pantalla, en rosa y con borde
 punteado, para que no se escape:
 
-1. **Telefonía** — países con cobertura, modelo de cobro y minutos incluidos.
-2. **Implementación** — tiempos reales por paso.
-3. **Legal** — texto del aviso de privacidad y de los términos.
-4. **Dominio** — `metadataBase` en `app/layout.tsx` apunta a un dominio de
+1. **Legal** — texto del aviso de privacidad y de los términos.
+2. **Dominio** — `metadataBase` en `app/layout.tsx` apunta a un dominio de
    ejemplo; cámbialo por el real para que las tarjetas sociales resuelvan.
 
-Ya resueltos: el contacto es `contact@kovex.net` (sin teléfono ni domicilio) y
-el formulario envía a Formspree (`components/DemoForm.tsx`).
+Ya resueltos: contacto en `contact@kovex.net` (sin teléfono ni domicilio),
+formulario conectado a Formspree, plazo de implementación de dos semanas como
+máximo y condiciones comerciales de telefonía (cobertura mundial, cobro por
+pasarela o transferencia, minutos según plan).
 
 ## Decisiones que conviene no deshacer
 

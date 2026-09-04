@@ -110,24 +110,32 @@ export default function Home() {
       <section className="section">
         <div className="wrap">
           <Reveal>
-            <div className="quote">
+            <div className="quote quote--visual">
               <span className="halo quote__halo" aria-hidden="true" />
-              <p className="kicker">CRM operativo</p>
-              <h2>
-                Es el mismo expediente que pasa de mano en mano,{" "}
-                <em>no tres registros distintos</em>
-                <span className="dot" aria-hidden="true" />
-              </h2>
-              <p>
-                Cuando Ventas cierra, el prospecto aparece solo en Cumplimiento. Cuando Cumplimiento
-                aprueba, pasa solo a Retención. Nadie recaptura nada.
-              </p>
-              <p style={{ marginTop: 30 }}>
-                <Link href="/crm" className="link-arrow">
-                  <span>Ver el CRM completo</span>
-                  <span aria-hidden="true">→</span>
-                </Link>
-              </p>
+              <div className="quote__copy">
+                <p className="kicker">CRM operativo</p>
+                <h2>
+                  Es el mismo expediente que pasa de mano en mano,{" "}
+                  <em>no tres registros distintos</em>
+                  <span className="dot" aria-hidden="true" />
+                </h2>
+                <p>
+                  Cuando Ventas cierra, el prospecto aparece solo en Cumplimiento. Cuando
+                  Cumplimiento aprueba, pasa solo a Retención. Nadie recaptura nada.
+                </p>
+                <p style={{ marginTop: 24 }}>
+                  <Link href="/crm" className="link-arrow">
+                    <span>Ver el CRM completo</span>
+                    <span aria-hidden="true">→</span>
+                  </Link>
+                </p>
+              </div>
+              <div className="quote__media">
+                <ProductVisual
+                  src="/images/kovex-ecosistema.png"
+                  alt="Ilustración conceptual del ecosistema Kovex conectado"
+                />
+              </div>
             </div>
           </Reveal>
         </div>
