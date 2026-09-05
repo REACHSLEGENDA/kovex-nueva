@@ -32,7 +32,7 @@ export const LINEAS: Linea[] = [
     imagenAlt: "Terminal de trading en escritorio y móvil",
     puntos: [
       "Terminal con gráficos profesionales y órdenes a mercado o programadas con SL/TP.",
-      "Precios en vivo por WebSocket con proveedor de respaldo automático.",
+      "Precios en vivo con continuidad operativa y respaldo automático.",
       "Siete clases de activo en un mismo portal.",
       "Instalable como aplicación en iPhone, Android y escritorio.",
     ],
@@ -64,7 +64,7 @@ export const LINEAS: Linea[] = [
       "Ventas, Cumplimiento y Retención sobre el mismo registro.",
       "Pista de Recovery para cuentas caídas o enfriadas.",
       "Kanban: se arrastra la tarjeta y cambia la etapa.",
-      "Alcance por rol resuelto en base de datos, no en pantalla.",
+      "Visibilidad y permisos definidos para cada rol.",
     ],
   },
 ];

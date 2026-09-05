@@ -9,7 +9,7 @@ import { AUTOMATISMOS, EMBUDOS, MODULOS, RECOVERY, ROLES } from "@/lib/content";
 export const metadata: Metadata = {
   title: "CRM operativo",
   description:
-    "El CRM operativo del ciclo completo: Ventas, Cumplimiento y Retención sobre un mismo expediente, con pista de Recovery y alcance por rol resuelto en base de datos.",
+    "El CRM operativo del ciclo completo: Ventas, Cumplimiento y Retención sobre un mismo expediente, con pista de Recovery y permisos definidos por rol.",
 };
 
 export default function Crm() {
@@ -234,12 +234,12 @@ export default function Crm() {
           <Reveal delay={120}>
             <div className="punchline">
               <strong>
-                No es un filtro de pantalla, es una regla de base de datos
+                Cada rol tiene un alcance claro en toda la operación
                 <span className="dot" aria-hidden="true" />
               </strong>
               <p>
-                Un agente no ve la base de otro ni forzando la dirección web. Igual el chat: si no
-                estás en un canal, ni siquiera aparece que existe.
+                Un agente trabaja sólo con las cuentas que le corresponden. Igual el chat: si no
+                estás en un canal, no aparece dentro de tu espacio de trabajo.
               </p>
               <p style={{ marginTop: 14 }}>
                 <strong>Auditar perspectiva</strong> permite ver el sistema como lo ve otra

@@ -26,7 +26,7 @@ const PASOS = [
     n: "03",
     titulo: "Despliegue y pruebas",
     texto:
-      "En tu infraestructura o gestionado por Kovex. Se prueban precios en vivo y el respaldo automático, la pasarela, el flujo de KYC y los permisos de cada rol.",
+      "En tu infraestructura o gestionado por Kovex. Se validan precios en vivo, estabilidad operativa, pagos, el flujo de KYC y los permisos de cada rol.",
   },
   {
     n: "04",

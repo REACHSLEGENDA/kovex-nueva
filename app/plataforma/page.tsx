@@ -9,7 +9,7 @@ import { ACTIVOS } from "@/lib/content";
 export const metadata: Metadata = {
   title: "Plataforma de trading white label",
   description:
-    "Sitio público, portal del cliente y consola administrativa. Precios en vivo con respaldo automático, siete clases de activo, pasarela cripto y aislamiento por fila en base de datos.",
+    "Sitio público, portal del cliente y consola administrativa. Precios en vivo, siete clases de activo, pagos digitales y controles de acceso por cliente.",
 };
 
 const TABS: Tab[] = [
@@ -26,8 +26,8 @@ const TABS: Tab[] = [
             y dibujo técnico, y órdenes a mercado o programadas con stop loss y take profit.
           </p>
           <p>
-            Los precios llegan en vivo por WebSocket. Si la fuente principal falla, entra la
-            segunda sin que el usuario lo note.
+            Los precios se actualizan en tiempo real y el servicio mantiene una experiencia
+            estable durante toda la operación.
           </p>
         </div>
         <ul className="dots">
@@ -74,17 +74,17 @@ const TABS: Tab[] = [
     content: (
       <div className="tabs__panel">
         <div>
-          <h3>Cobro en criptomonedas</h3>
+          <h3>Depósitos simples y seguros</h3>
           <p>
-            La confirmación del pago llega servidor a servidor, con firma <span className="num">HMAC</span>{" "}
-            verificada. El saldo se acredita de forma atómica e idempotente.
+            El cliente inicia su pago dentro del mismo flujo y, una vez confirmado, su saldo se
+            refleja de forma segura.
           </p>
-          <p>Un mismo aviso nunca acredita dos veces, aunque el proveedor lo reenvíe.</p>
+          <p>Cada operación se valida y se registra una sola vez.</p>
         </div>
         <ul className="dots">
-          <li>Confirmación fuera del navegador: el cliente no puede falsificarla.</li>
-          <li>Acreditación atómica: se aplica completa o no se aplica.</li>
-          <li>Reintentos del proveedor tratados como el mismo evento.</li>
+          <li>Confirmación segura de cada operación.</li>
+          <li>Saldo actualizado sólo después de confirmar el pago.</li>
+          <li>Protección ante confirmaciones repetidas.</li>
           <li>El flujo de pago no expulsa al usuario de la aplicación instalada.</li>
         </ul>
       </div>
@@ -97,17 +97,17 @@ const TABS: Tab[] = [
     content: (
       <div className="tabs__panel">
         <div>
-          <h3>El aislamiento no es de pantalla</h3>
+          <h3>Cada cliente accede sólo a lo que le corresponde</h3>
           <p>
-            Aislamiento por fila en base de datos (<span className="num">RLS</span>): un cliente no
-            puede leer los datos de otro ni manipulando la dirección web.
+            La información de cada cuenta se mantiene separada y protegida durante toda la
+            experiencia.
           </p>
-          <p>Lo que el navegador no debe poder hacer, no se resuelve en el navegador.</p>
+          <p>Los permisos se aplican en todo el sistema, no sólo en lo que aparece en pantalla.</p>
         </div>
         <ul className="dots">
-          <li>Operaciones sensibles resueltas en el servidor.</li>
+          <li>Controles de acceso para operaciones sensibles.</li>
           <li>Bitácora de auditoría de cada movimiento, con actor y fecha.</li>
-          <li>Permisos verificados en cada consulta, no sólo al pintar la interfaz.</li>
+          <li>Permisos consistentes para clientes, agentes y administradores.</li>
         </ul>
       </div>
     ),
