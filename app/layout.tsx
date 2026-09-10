@@ -18,7 +18,7 @@ const jetbrains = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://kovex.example"),
+  metadataBase: new URL("https://kovex.net"),
   title: {
     default: "Kovex · La tecnología que opera tu mesa",
     template: "%s · Kovex",
@@ -32,6 +32,10 @@ export const metadata: Metadata = {
     title: "Kovex · La tecnología que opera tu mesa",
     description:
       "Plataforma de trading white label, telefonía en renta y CRM operativo. Con tu marca.",
+  },
+  // Google Search Console. Complementa a public/googlee85b76981748f618.html.
+  verification: {
+    google: "0cLx9Ixycpks4ErB_81rypVKA-AxhgItNZI0sHjM4EQ",
   },
 };
 
